@@ -1,0 +1,26 @@
+{
+	"name": "smart-quack",
+	"version": "1.0.0",
+	"description": "Smart Quack is a smart home device managing and monitoring project with a web ui",
+	"main": "src/main.ts",
+	"scripts": {
+		"start": "node src/main.ts",
+		"test": "nodemon src/main.ts",
+		"dev": "nodemon src/main.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SturmEnte/smart-quack.git"
+	},
+	"author": "SturmEnte",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/SturmEnte/smart-quack/issues"
+	},
+	"homepage": "https://github.com/SturmEnte/smart-quack#readme",
+	"devDependencies": {
+		"nodemon": "^3.1.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.5"
+	}
+}
